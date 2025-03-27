@@ -1,24 +1,81 @@
-<html>
-    <title>Website Test</title>
-    <body>
-        <h1>Welcome to my website!</h1>
-        <p>This is a test page for website performance and accessibility.</p>
-        <H1>The best test change</H1>
-        <ul>
-            <li><a href="https://www.google.com">Google</a></li>
-            <li><a href="https://www.facebook.com">Facebook</a></li>
-            <li><a href="https://www.instagram.com">Instagram</a></li>
-        </ul>
-        <p>This website uses Google Fonts for its typography.</p>
-        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-        <i class="fab fa-google fa-2x"></i>
-        <i class="fab fa-facebook fa-2x"></i>
-        <i class="fab fa-instagram fa-2x"></i>
-
-
-
-
-    </body>
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congrats Lawrence!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(90deg, #ff416c, #ff4b2b);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            font-weight: bold;
+            text-shadow: 0 0 10px #ffffff, 0 0 20px #ffcc00, 0 0 30px #ff6600;
+            animation: glow 1.5s infinite alternate;
+        }
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #ffffff, 0 0 20px #ffcc00, 0 0 30px #ff6600;
+            }
+            to {
+                text-shadow: 0 0 20px #ffffff, 0 0 30px #ffcc00, 0 0 40px #ff6600;
+            }
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            display: inline;
+            margin: 15px;
+        }
+        a {
+            text-decoration: none;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #fff;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        a:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }
+        .icons {
+            margin-top: 20px;
+        }
+        .icons i {
+            margin: 10px;
+            font-size: 2.5em;
+            transition: transform 0.3s;
+        }
+        .icons i:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Congrats Lawrence!</h1>
+    <p>This is an upgraded version of your test website with a modern and vibrant design.</p>
+    <h2>Check out these links:</h2>
+    <ul>
+        <li><a href="https://www.google.com">Google</a></li>
+        <li><a href="https://www.facebook.com">Facebook</a></li>
+        <li><a href="https://www.instagram.com">Instagram</a></li>
+    </ul>
+    <p>Enjoy the enhanced aesthetics with glowing text and vibrant colors!</p>
+    <div class="icons">
+        <i class="fab fa-google"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+    </div>
+</body>
 </html>
